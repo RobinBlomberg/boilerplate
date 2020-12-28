@@ -1,13 +1,3 @@
 {
-  "extends": "@robinblomberg/robinblomberg",
-  "overrides": [
-    {
-      "env": {
-        "mocha": true
-      },
-      "files": [
-        "lib/**.test.js"
-      ]
-    }
-  ]
+  "extends": "@robinblomberg/robinblomberg"
 }
