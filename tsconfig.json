@@ -3,6 +3,7 @@
     "checkJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
     "incremental": true,
     "module": "CommonJS",
     "moduleResolution": "Node",
@@ -10,6 +11,6 @@
     "pretty": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ES6"
   }
 }
