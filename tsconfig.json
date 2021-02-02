@@ -1,19 +1,15 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "checkJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "incremental": true,
     "module": "ESNext",
     "moduleResolution": "node",
     "noEmit": true,
+    "pretty": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext"
-  },
-  "include": [
-    "lib/*.js",
-    "lib/*.ts",
-    "lib/*.d.ts"
-  ]
+  }
 }

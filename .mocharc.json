@@ -1,3 +1,5 @@
 {
-  "reporter": "min"
+  "require": [
+    "ts-node/register"
+  ]
 }
