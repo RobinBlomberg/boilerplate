@@ -8,8 +8,8 @@
     "coverage": "c8 npm test",
     "lint": "eslint **/*.ts",
     "lint:fix": "eslint **/*.ts --fix",
-    "test": "mocha **/{,!(node_modules)/**}/*.test.ts",
-    "test:dev": "mocha **/{,!(node_modules)/**}/*.test.ts --reporter=min --watch --watch-files *.ts"
+    "test": "mocha {,!(node_modules)/**}/*.test.ts",
+    "test:dev": "mocha {,!(node_modules)/**}/*.test.ts --reporter=min --watch --watch-files *.ts"
   },
   "devDependencies": {
     "@robinblomberg/eslint-config-robinblomberg": "^0.4.5",
